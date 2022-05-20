@@ -35,8 +35,6 @@ if __name__ == '__main__':
         for y, x in preferences.items():
             if x == i:
                 choices[i].append(y)
-    while True:
-        break
 
     for i in range(1, 13):
         print(f"================== FOR SPOT NUMBER {i} ====================")
